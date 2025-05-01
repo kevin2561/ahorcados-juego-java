@@ -4,35 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
-        // Variables
-        int numero = 5;
-        byte xd = 125;
-        double decimal = 5.5;
-        char letra = 'x';
-        String cadena = "hola perros";
-        boolean v = false;
-
-        String texto = "TEXTO XXXXXXXXXXXXXX";
-        // metodo con en JS
-        int longitud = texto.length();
-        char let = texto.charAt(5);
-        String subString = texto.substring(3, longitud);
-        System.out.println(subString);
-        String mayuscula = texto.toUpperCase();
-
-        int indice = texto.indexOf("aa");
-        System.out.println(indice);
-
-        String remplazado = texto.toLowerCase().replace("texto", "lappp");
-        System.out.println(remplazado);
-
-        boolean cotiene = texto.toLowerCase().contains("texto");
-        System.out.println("tiene " + cotiene);
-
-        int x = 5;
-        int a = 1;
-        boolean ww = x > a;
-        System.out.println(ww);
+      
 
         // SWITCH
         String bebida = "caffe";
@@ -83,50 +55,7 @@ public class App {
         // }
         // scanner.close();
 
-        // BUCLESSSSSSS
-        /*
-         * for (int i = 1; i <= 3; i++) {
-         * for (int j = 1; j <=5; j++) {
-         * System.out.print(" i:");
-         * System.out.print(i);
-         * System.out.print(" j:");
-         * System.out.println(j);
-         * 
-         * 
-         * }
-         * }
-         */
-
-        // WHILE
-        /*
-         * int contador= 5;
-         * while (contador <= 5 ) {
-         * System.out.println(contador);
-         * contador++;
-         * 
-         * }
-         */
-        // DO WHILE
-        /*
-         * int contador = 1;
-         * do {
-         * System.out.println("Antes del ++");
-         * System.out.println(contador);
-         * 
-         * contador++;
-         * } while (contador <= 5);
-         * System.out.println(contador);
-         */
-
-        // for (int i = 1; i < 10; i++) {
-        // System.out.println(i);
-        // if (i == 5) {
-        // // break; // corta el bucle
-        // continue; //saltea y sigue con el bucle
-        // }
-        // System.out.println("2 vuelta: " + i);
-
-        // }
+      
         System.out.println("----------------------------");
 
         // ARREGLOS, si dejas vacio le pone 0 por defecto
